@@ -8,10 +8,10 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 
 /**
- * Created by qinbingbing on 6/22/16.
- * java AESTest -genkey keyfile<br>
- * java AESTest -encrypt plaintext encrypted keyfile<br>
- * java AESTest -decrypt encrypted decrypted keyfile<br>
+ * Created by qinbingbing on 6/22/16.<br/>
+ * java AESTest -genkey keyfile<br/>
+ * java AESTest -encrypt plaintext encrypted keyfile<br/>
+ * java AESTest -decrypt encrypted decrypted keyfile<br/>
  */
 public class AESTest {
     public static void main(String[] args) {
