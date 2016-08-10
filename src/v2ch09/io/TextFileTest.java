@@ -94,6 +94,18 @@ class Employee {
         salary += raise;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    public void setHireDay(Date hireDay) {
+        this.hireDay = hireDay;
+    }
+
     @Override
     public String toString() {
         return getClass().getName() + "[name=" + name
