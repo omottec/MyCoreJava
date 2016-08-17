@@ -1,4 +1,4 @@
-package v2ch09.io;
+package v2ch01.io;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;
