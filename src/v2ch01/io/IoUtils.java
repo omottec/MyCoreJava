@@ -129,4 +129,20 @@ public class IoUtils {
             close(channel);
         }
     }
+
+    public static String base64Encode(String source) {
+        Base64OutputStream out = null;
+        try {
+            ByteArrayOutputStream bout = new ByteArrayOutputStream();
+            out = new Base64OutputStream(bout);
+            out.write(source.getBytes());
+            out.flush();
+            return bout.toString();
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        } finally {
+            IoUtils.close(out);
+        }
+    }
 }
