@@ -1,4 +1,4 @@
-package v1ch12.PairTest2;
+package v1ch12;
 
 /**
  * Created by qinbingbing on 1/10/17.

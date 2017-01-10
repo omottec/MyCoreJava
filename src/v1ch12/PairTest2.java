@@ -1,4 +1,4 @@
-package v1ch12.PairTest2;
+package v1ch12;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
