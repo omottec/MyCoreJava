@@ -30,4 +30,8 @@ public class Pair<T> {
     public void setSecond(T newValue) {
         second = newValue;
     }
+
+    /*public boolean equals(T t) {
+        return first.equals(t) && second.equals(t);
+    }*/
 }
