@@ -22,7 +22,7 @@ public class MailTest {
                     .append("MAIL FROM: <qinbingbing@didichuxing.com>").append("\r\n")
                     .append("ECPT TO: <omottec007@163.com>").append("\r\n")
                     .append("DATA").append("\r\n")
-                    .append(".");
+                    .append("");
             writer.write(sb.toString());
             writer.flush();
         } catch (IOException e) {

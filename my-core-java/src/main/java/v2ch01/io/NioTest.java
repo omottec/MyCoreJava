@@ -11,7 +11,7 @@ public class NioTest {
         if (args.length >= 1)
             fileName = args[0];
         else
-            fileName = "." + File.separator + "src"
+            fileName = "" + File.separator + "src"
                     + File.separator + "v2ch09"
                     + File.separator + "io"
                     + File.separator + "NioTest.java";

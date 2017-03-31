@@ -9,7 +9,7 @@ import java.io.IOException;
 public class FindDirectories {
     public static void main(String[] args) {
         if (args.length == 0)
-            args = new String[] { ".." };
+            args = new String[] {"src/main"};
         File file = new File(args[0]);
         String[] fileNames = file.list();
         if (fileNames == null || fileNames.length == 0) {

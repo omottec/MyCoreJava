@@ -10,7 +10,7 @@ import java.util.Arrays;
  */
 public class FileTest {
     public static void main(String[] args) throws IOException {
-        String dir = "." + File.separator + "src"
+        String dir = "" + File.separator + "src"
                 + File.separator + "v2ch09"
                 + File.separator + "io";
         File file = new File(dir, "FileTest.java");
@@ -28,7 +28,7 @@ public class FileTest {
         System.out.println("uri:" + uri);
         File tmpFile = File.createTempFile("qbb", ".java");
         System.out.println("tmpFile.getCanonicalPath():" + tmpFile.getCanonicalPath());
-        File tmpFile1 = File.createTempFile(".pic", "dat", new File("."));
+        File tmpFile1 = File.createTempFile(".pic", "dat", new File(""));
         System.out.println("tmpFile1.getCanonicalPath():" + tmpFile1.getCanonicalPath());
         System.out.println("tmpFile1.isHidden():" + tmpFile1.isHidden());;
     }
